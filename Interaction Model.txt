@@ -1,0 +1,52 @@
+## intent schema
+
+{
+  "intents": [
+    {
+      "intent": "OpenIntent"
+    },
+    {
+      "intent": "RightIntent"
+    },
+    {
+      "intent": "LeftIntent"
+    },
+    {
+      "intent": "UpIntent"
+    },
+    {
+      "intent": "DownIntent"
+    },
+    {
+      "intent": "StartIntent"
+    },
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "PauseIntent"
+    },
+    {
+      "intent": "ReturnIntent"
+    },
+    {
+      "intent": "PlayAgainIntent"
+    }
+  ]
+}
+## invocation name
+
+snake game
+
+##Sample Utterances
+
+OpenIntent open
+RightIntent right
+LeftIntent left
+UpIntent up
+DownIntent down
+StartIntent play snake
+StopIntent quit snake
+PauseIntent pause the game
+ReturnIntent start again
+PlayAgainIntent play the game again
